@@ -1,0 +1,56 @@
+# OS
+.DS_Store
+.vscode
+*.code-workspace
+testing/
+
+# Node.js
+node_modules
+package-lock.json
+nodejs/test.js
+
+# Java
+build
+.gradle
+.idea
+*.iml
+local.properties
+.classpath
+.project
+java/lib/
+java/bin/
+java/src/main/java/Test.java
+
+# See: https://developers.google.com/wallet/generic/resources/libraries
+java/lib/libwalletobjects_public_java_lib_v1.jar
+
+# Python
+*.pyc
+__pycache__
+.venv/
+Pipfile.lock
+*.yapf
+.python-version
+python/test.py
+
+# .NET
+dotnet/bin/
+dotnet/obj/
+*.sln
+.vs
+dotnet/lib/
+dotnet/Test.cs
+
+# PHP
+vendor
+composer.lock
+php/test.php
+
+# See: https://developers.google.com/wallet/generic/resources/libraries
+php/lib/Walletobjects.php
+
+# Ruby
+Gemfile.lock
+
+# Credentials
+key.json

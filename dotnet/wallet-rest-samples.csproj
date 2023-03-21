@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>wallet_rest_samples</RootNamespace>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.57.0" />
+    <PackageReference Include="Google.Apis.IAMCredentials.v1" Version="1.57.0.2528" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+    <!--
+      Set the Include path to the path where you saved the library locally.
+    -->
+    <CodeFiles Include="lib/Google.Apis.Walletobjects.v1.cs" />
+
+    <CodeFiles Include="DemoEventTicket.cs" />
+    <CodeFiles Include="DemoFlight.cs" />
+    <CodeFiles Include="DemoGeneric.cs" />
+    <CodeFiles Include="DemoGiftCard.cs" />
+    <CodeFiles Include="DemoLoyalty.cs" />
+    <CodeFiles Include="DemoOffer.cs" />
+    <CodeFiles Include="DemoTransit.cs" />
+  </ItemGroup>
+
+</Project>
